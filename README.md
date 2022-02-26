@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Técnicas y procedimiento de apilado de madera**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF1_SECADO_MADERA/](https://ecored-sena.github.io/CF1_SECADO_MADERA/)
 
 #
 

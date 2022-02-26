@@ -4,6 +4,7 @@ export default {
     descripcionCurso:
       'El secado de la madera es el proceso que ha sido el causante de más defectos y deformaciones de la pieza. Siendo hoy el mercado más competitivo y exigente es indispensable conocer las técnicas industriales que permitan al trabajador mejorar la calidad en el producto',
     fondoBannerPrincipal: require('@/assets/curso/banner/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner/imagen-principal.png'),
   },
   menuPrincipal: {
     menu: [
