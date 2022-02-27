@@ -84,7 +84,7 @@
 
           .col-12.py-4
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-            .cajon.color-primario.p-4.mb-4
+            .cajon.cajon-transparente.color-primario.p-4.mb-4
               .h5 Planos de corte
               p Según Chavesta (2006), se conoce como planos o sección de corte en la madera a las superficies que resultan al cortar una pieza de madera en diferentes planos. Debido a la manera como crece el árbol y el arreglo de las células xilemáticas dentro del tallo, se reconocen tres planos principales en los cuales la madera es examinada ordinariamente. Estos planos o superficies son: transversal y longitudinal.
 
