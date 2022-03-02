@@ -72,14 +72,20 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Tablas de conversión',
+            titulo: 'Sistema métrico',
             hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Técnicas e instrumentos de medida',
+            titulo: 'Tablas de conversión',
             hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Técnicas e instrumentos de medida',
+            hash: 't_4_3',
           },
         ],
       },
@@ -331,9 +337,9 @@ export default {
     {
       texto:
         'Ardanuy, T. (1988). NTP 220: Seguridad en el almacenamiento de madera',
-      tipo: 'Video',
+      tipo: 'Documento',
       link:
-        'https://www.youtube.com/watch?v=N8FUFYKblFw&ab_channel=PedroBenitoUrbina',
+        'https://www.insst.es/documents/94886/326853/ntp_220.pdf/fad8c9cd-1916-4897-b0bb-baa72ca3d867?version=1.0&t=1614698420494',
     },
   ],
   creditos: {

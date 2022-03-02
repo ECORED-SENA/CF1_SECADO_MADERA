@@ -72,7 +72,7 @@
         ImagenInfografica.color-acento-contenido.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/img03.png', alt='Propiedades Mecánicas')
+              img(src='@/assets/curso/tema2/img03.png', alt='Propiedades Organolépticas')
         
           .tarjeta.bg-tarjeta-infografia.p-3(x='17%' y='2%' numero='1')
             p Variable de blancos a negros dependiente de la especie, por lo general las maderas duras presentan colores más oscuros.
