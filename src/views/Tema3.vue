@@ -163,7 +163,7 @@
                   h3.mb-1 Norma NIMF
                   p.text-small Norma Internacional de Medidas Fitosanitarias.
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.fao.org/sustainable-forest-management/toolbox/tools/tools-details/es/c/233067/" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
