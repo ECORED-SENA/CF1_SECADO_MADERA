@@ -11,7 +11,7 @@
           h1 Normas de seguridad  
 
       .col-10.mb-5
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema6/img01.jpg')})`}"
           )

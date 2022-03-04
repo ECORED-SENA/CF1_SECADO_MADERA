@@ -114,15 +114,15 @@
     p Cuando se habla de inmunizar la madera, se hace referencia al proceso mediante el cual la madera es impregnada de sustancias químicas mediante la utilización de diferentes métodos (inmersión, vacío presión) para lograr su preservación, durabilidad en el tiempo y resistencia a ataques por hongos, insectos y perforadores marinos. Por ello, es importante tener en cuenta lo siguiente:
 
     .row.justify-content-center
-      .col-lg-5.m-1.bg-tarjeta-infografia.tarjeta-inmunizado.p-0
+      .col-lg-5.m-1.bg-tarjeta-infografia.tarjeta-inmunizado.p-0.m-4
         picture
           img(src='@/assets/curso/tema3/flip2.png', alt='Texto que describa la imagen' )
-        p.p-4 Estas sustancias que son aplicadas a la madera deben cumplir con ciertos requisitos como: ser tóxicas para los agentes patógenos, no ser tóxicas para las personas y animales.
+        p.text-center.p-4 Estas sustancias que son aplicadas a la madera deben cumplir con ciertos requisitos como: ser tóxicas para los agentes patógenos, no ser tóxicas para las personas y animales.
 
-      .col-lg-5.m-1.bg-color-tarjeta-inmunizado.tarjeta-inmunizado.p-0
+      .col-lg-5.m-1.bg-color-tarjeta-inmunizado.tarjeta-inmunizado.p-0.m-4
         picture
           img(src='@/assets/curso/tema3/flip1.png', alt='Texto que describa la imagen' )
-        p.p-4 Sustancias que no sean corrosivas ni combustibles y sean relativamente económicas, la selección del preservante debe ser realizada pensando en el tipo de servicio que prestara la madera, y su éxito dependerá del grado de penetración que se logre.
+        p.text-center.p-4 Sustancias que no sean corrosivas ni combustibles y sean relativamente económicas, la selección del preservante debe ser realizada pensando en el tipo de servicio que prestara la madera, y su éxito dependerá del grado de penetración que se logre.
 
     .row.my-5
       .col.col-12.col-md-7

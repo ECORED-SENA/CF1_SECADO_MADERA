@@ -59,7 +59,7 @@
     .row.mb-5
       .col.col-12.col-md-5
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        LineaTiempoD.color-acento-botones
+        LineaTiempoD.color-acento-botones.mb-4.mb-lg-1
           .row(numero="1" titulo="Especificación 1")
             .col-12.mb-4.mb-md-0
               p.text-small Preferiblemente no usar separadores de maderas resinosas.
@@ -140,7 +140,7 @@
         p Existen cuatro tipos de apilado de madera: horizontal, vertical, en caballete y en triángulo, todos favoreciendo la circulación del aire de manera homogénea sobre las piezas.
 
       .col-10.my-4
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema5/img03.jpg')})`}"
           )

@@ -8,7 +8,7 @@
         span 1
       h1 Anatomía de la madera
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.jpg')})`}"
       )
@@ -46,7 +46,7 @@
         
           .tarjeta.bgTarjetaInfografia.p-3(x='88.5%' y='81%' numero='4')
             p.text-center 
-              strong Parénquima
+              strong Parénquima: 
               | son células más cortas y por lo general más claras que las fibras. Cumplen las funciones de conducción y reserva de sustancias. Se orientan en sentido paralelo al eje longitudinal del tronco (Sentido longitudinal).
       .col-12  
         strong Partes del tronco
@@ -60,8 +60,10 @@
                 h4 La corteza y el floema
                 p son las capas más exteriores del tronco, su función es la protección de la madera nueva, al igual que el transporte de la savia enriquecida, de forma tanto ascendente como descendente.
        
-              .tarjeta.bgTarjetaTab.p-4(titulo="El cambium vascular")
-                h4 El cambium vascular
+              .tarjeta.bgTarjetaTab.p-4(titulo="El <i>cambium</i> vascular")
+                h4 El 
+                  i cambium 
+                  | vascular
                 p es una fina película que se encarga de producir las nuevas capas de madera que se originan en cada época de crecimiento.
        
               .tarjeta.bgTarjetaTab.p-4(titulo="La xilema")
