@@ -21,7 +21,7 @@
     .row.justify-content-center.gy-4
       .col-12.my-4
         p.text-center.mt-5
-          strong A continuación se conocerán las distintas células que conforman la madera.
+          strong A continuación, se conocerán las distintas células que conforman la madera.
 
       .col-12
         ImagenInfografica.color-acento-contenido.mb-5
@@ -29,23 +29,23 @@
             figure
               img(src='@/assets/curso/tema1/img02.png', alt='Células que conforman la madera')
         
-          .tarjeta.bgTarjetaInfografia.p-3(x='88.5%' y='13%' numero='1')
-            p.text-center 
+          .tarjeta.bgTarjetaInfografia.p-4(x='88.5%' y='13%' numero='1')
+            p.text-center.mb-0 
               strong Fibras: 
-              | estas células constituyen el elemento principal de la madera, ya que de ellas depende caracterizas primordiales como: la densidad, resistencia mecánica, contracción e hinchamiento, capacidad de aislamiento acústico y eléctrico, y flexibilidad. Las fibras se orientan en sentido paralelo al eje longitudinal del tronco.
+              | estas células constituyen el elemento principal de la madera, ya que de ellas depende caracteristicas primordiales como: la densidad, resistencia mecánica, contracción e hinchamiento, capacidad de aislamiento acústico y eléctrico, y flexibilidad. Las fibras se orientan en sentido paralelo al eje longitudinal del tronco.
 
-          .tarjeta.bgTarjetaInfografia.p-3(x='88.4%' y='52.7%' numero='2')
-            p.text-center 
+          .tarjeta.bgTarjetaInfografia.p-4(x='88.4%' y='52.7%' numero='2')
+            p.text-center.mb-0
               strong Vasos o poros: 
               | estas células con forma tubular cumplen la función del transporte de agua y sustancias desde la raíz a las hojas y se orientan en sentido paralelo al eje longitudinal del tronco.
 
-          .tarjeta.bgTarjetaInfografia.p-3(x='87.5%' y='67%' numero='3')
-            p.text-center 
+          .tarjeta.bgTarjetaInfografia.p-4(x='87.5%' y='67%' numero='3')
+            p.text-center.mb-0
               strong Radios: 
               | en estas células se realiza el transporte horizontal y reserva de sustancias y se encuentran orientadas en sentido perpendicular al eje del árbol. Van de la médula hacia la corteza.
         
-          .tarjeta.bgTarjetaInfografia.p-3(x='88.5%' y='81%' numero='4')
-            p.text-center 
+          .tarjeta.bgTarjetaInfografia.p-4(x='88.5%' y='81%' numero='4')
+            p.text-center.mb-0
               strong Parénquima: 
               | son células más cortas y por lo general más claras que las fibras. Cumplen las funciones de conducción y reserva de sustancias. Se orientan en sentido paralelo al eje longitudinal del tronco (Sentido longitudinal).
       .col-12  
@@ -58,36 +58,36 @@
               //- estas clases tambien tienen un modificador --borde
               .tarjeta.bgTarjetaTab.mb-0.p-4(titulo="La corteza y el floema")
                 h4 La corteza y el floema
-                p son las capas más exteriores del tronco, su función es la protección de la madera nueva, al igual que el transporte de la savia enriquecida, de forma tanto ascendente como descendente.
+                p Son las capas más exteriores del tronco, su función es la protección de la madera nueva, al igual que el transporte de la savia enriquecida, de forma tanto ascendente como descendente.
        
               .tarjeta.bgTarjetaTab.p-4(titulo="El <i>cambium</i> vascular")
                 h4 El 
                   i cambium 
                   | vascular
-                p es una fina película que se encarga de producir las nuevas capas de madera que se originan en cada época de crecimiento.
+                p Es una fina película que se encarga de producir las nuevas capas de madera que se originan en cada época de crecimiento.
        
               .tarjeta.bgTarjetaTab.p-4(titulo="La xilema")
                 h4 La xilema
-                p conjunto de células que conforman el tejido leñoso y está constituido por 3 capas llamadas: albura, duramen y médula.
+                p Conjunto de células que conforman el tejido leñoso y está constituido por 3 capas llamadas: albura, duramen y médula.
        
               .tarjeta.bgTarjetaTab.p-4(titulo="La albura")
                 h4 La albura
-                p generalmente de color más claro que el duramen. Sus células están, permanentemente, llenas de agua y sustancias alimenticias. Es susceptible de ser atacada por hongos e insectos.
+                p Generalmente de color más claro que el duramen. Sus células están, permanentemente, llenas de agua y sustancias alimenticias. Es susceptible de ser atacada por hongos e insectos.
        
               .tarjeta.bgTarjetaTab.p-4(titulo="El duramen")
                 h4 El duramen
-                p está formado por células duras de madera muerta, que aportan al árbol resistencia a las plagas y un soporte firme.
+                p Está formado por células duras de madera muerta, que aportan al árbol resistencia a las plagas y un soporte firme.
        
               .tarjeta.bgTarjetaTab.p-4(titulo="La médula")
                 h4 La médula
-                p consta de células muertas o debilitadas y se encuentra en el centro exacto del árbol. Es muy oscura y puede ser de diferentes texturas según el árbol en concreto y la edad de este (Areatecnologia, s.f.).
+                p Consta de células muertas o debilitadas y se encuentra en el centro exacto del árbol. Es muy oscura y puede ser de diferentes texturas según el árbol en concreto y la edad de este (Areatecnologia, s.f.).
        
             img.imgTab(src='@/assets/curso/tema1/img03.png', alt='Partes del tronco', class='img-fluid')
 
           .col-12.py-4
             //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
             .cajon.cajon-transparente.color-primario.p-4.mb-4
-              .h5 Planos de corte
+              .h5.mb-3 Planos de corte
               p Según Chavesta (2006), se conoce como planos o sección de corte en la madera a las superficies que resultan al cortar una pieza de madera en diferentes planos. Debido a la manera como crece el árbol y el arreglo de las células xilemáticas dentro del tallo, se reconocen tres planos principales en los cuales la madera es examinada ordinariamente. Estos planos o superficies son: transversal y longitudinal.
 
           .col-12
@@ -100,33 +100,30 @@
                   li
                     .lista-ol--cuadro__vineta
                       span 1
-                    p 
-                      strong Sección transversal: 
-                      br
-                      | Cara perpendicular al eje del tronco. Es la superficie observable en el extremo de una troza.
-
-                  p 
-                    strong Sección longitudinal: 
-                    br
-                    | superficie paralela al eje del tronco, que a su vez puede ser:
+                    div
+                      p.fw-bold Sección transversal 
+                      p Cara perpendicular al eje del tronco. Es la superficie observable en el extremo de una troza.
+                  li.sin-estilo
+                    .lista-ol--cuadro__vineta
+                    div
+                      p.fw-bold Sección longitudinal
+                      p Superficie paralela al eje del tronco, que a su vez puede ser:
 
 
                 ol.lista-ol--cuadro.lista-ol--separador
                   li
                     .lista-ol--cuadro__vineta
                       span 2
-                    p 
-                      strong Radial: 
-                      br
-                      | Resultante de un corte longitudinal paralelo a los radios, desde la corteza hasta la médula.
+                    div
+                      p.fw-bold Radial
+                      p Resultante de un corte longitudinal paralelo a los radios, desde la corteza hasta la médula.
 
                   li
                     .lista-ol--cuadro__vineta
                       span 3
-                    p 
-                      strong Tangencial: 
-                      br
-                      | Si el plano de corte sigue una dirección perpendicular a los radios o tangente a los anillos de crecimiento.
+                    div
+                      p.fw-bold Tangencial
+                      p Si el plano de corte sigue una dirección perpendicular a los radios o tangente a los anillos de crecimiento.
                   li
 
 

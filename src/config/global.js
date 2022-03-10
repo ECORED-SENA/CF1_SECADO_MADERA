@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Técnicas y procedimiento de apilado de madera',
     descripcionCurso:
-      'El secado de la madera es el proceso que ha sido el causante de más defectos y deformaciones de la pieza. Siendo hoy el mercado más competitivo y exigente es indispensable conocer las técnicas industriales que permitan al trabajador mejorar la calidad en el producto',
+      'El secado de la madera es el proceso que ha sido el causante de más defectos y deformaciones de la pieza. Siendo hoy el mercado más competitivo y exigente es indispensable conocer las técnicas industriales que permitan al trabajador mejorar la calidad en el producto.',
     fondoBannerPrincipal: require('@/assets/curso/banner/fondo-banner-principal.png'),
     imagenBannerPrincipal: require('@/assets/curso/banner/imagen-principal.png'),
   },
@@ -180,72 +180,72 @@ export default {
   referencias: [
     {
       referencia:
-        'AFAMID. (2016). Almacenamiento seguro en el sector de la madera',
+        'AFAMID. (2016). Almacenamiento seguro en el sector de la madera.',
       link:
         'https://studylib.es/doc/6293378/almacenamiento-seguro-en-el-sector-de-la-madera',
     },
     {
       referencia:
-        'Ardanuy, T. (1988). NTP 220: Seguridad en el almacenamiento de madera',
+        'Ardanuy, T. (1988). NTP 220: Seguridad en el almacenamiento de madera.',
       link:
         'https://www.insst.es/documents/94886/326853/ntp_220.pdf/fad8c9cd-1916-4897-b0bb-baa72ca3d867?version=1.0&t=1614698420494',
     },
     {
-      referencia: 'Areatecnologia. (s.f.). Partes del tronco de un árbol',
+      referencia: 'Areatecnologia. (s.f.). Partes del tronco de un árbol.',
       link:
         'https://www.areatecnologia.com/materiales/partes-del-tronco-de-un-arbol.html',
     },
     {
-      referencia: 'Calderón, A. (2016). Preservación de maderas',
+      referencia: 'Calderón, A. (2016). Preservación de maderas.',
       link:
         'https://dasonomia.files.wordpress.com/2016/11/preservacion-de-la-madera-apuntes.pdf',
     },
     {
-      referencia: 'Certicalia. (2021). ¿Qué es cubicar madera?',
+      referencia: 'Certicalia. (2021). ¿Qué es cubicar madera?.',
       link: 'https://www.certicalia.com/cubicar-madera/que-es-cubicar-madera',
     },
     {
       referencia:
-        'Chavesta. (2006). Manual para la identificación de maderas forestales',
+        'Chavesta. (2006). Manual para la identificación de maderas forestales.',
       link:
         'https://dl-manual.com/doc/manual-para-la-identificacion-de-especies-maderables5doc-6vj3dkx301oe',
     },
     {
-      referencia: 'Definición.de. (2021). Flexómetro',
+      referencia: 'Definición.de. (2021). Flexómetro.',
       link: 'https://definicion.de/flexometro/',
     },
     {
-      referencia: 'FAO. (s.f.). Glosario de términos',
+      referencia: 'FAO. (s.f.). Glosario de términos.',
       link: 'https://www.fao.org/3/j5484s/j5484s12.htm',
     },
     {
       referencia:
-        'Giménez, A., Moglia, J., Hernández, P. & Gerez, R. (2014). Anatomía de madera - Facultad de ciencias forestales',
+        'Giménez, A., Moglia, J., Hernández, P. & Gerez, R. (2014). Anatomía de madera - Facultad de ciencias forestales.',
       link:
         'https://fcf.unse.edu.ar/archivos/series-didacticas/sd-1-anatomia-de-madera.pdf',
     },
     {
-      referencia: 'Glosario bosques. (12015). Apilado de madera',
+      referencia: 'Glosario bosques. (12015). Apilado de madera.',
       link: 'https://glosarios.servidor-alicante.com/bosques/apilado-de-madera',
     },
     {
       referencia:
-        'Godinez, O. M. (2013). Manual de madera y carpintería para la integración a la arquitectura',
+        'Godinez, O. M. (2013). Manual de madera y carpintería para la integración a la arquitectura.',
       link: 'http://132.248.9.195/ptd2013/enero/0688067/0688067_A10.pdf',
     },
     {
-      referencia: 'Instruments™, P. (2021). Detect. humedad madera',
+      referencia: 'Instruments™, P. (2021). Detect. humedad madera.',
       link:
         'https://www.pce-instruments.com/colombia/instrumento-medida/medidor/detect.-humedad-madera-kat_72377.htm',
     },
     {
       referencia:
-        'Mamani, R. (2017). Cómo ubicamos nuestra madera. Proyecto Jatun Sach´a',
+        'Mamani, R. (2017). Cómo ubicamos nuestra madera. Proyecto Jatun Sach´a.',
       link: '',
     },
     {
       referencia:
-        'Moscoso, J. (2009). Técnicas de secado de la madera. 1° Edición. Centro de Innovación Tecnológico de la Madera (CITE madera)',
+        'Moscoso, J. (2009). Técnicas de secado de la madera. 1° Edición. Centro de Innovación Tecnológico de la Madera (CITE madera).',
       link: '',
     },
     {
@@ -256,7 +256,7 @@ export default {
     },
     {
       referencia:
-        'Posicionamiento de la Gobernanza Forestal en Colombia. (s.f.). Guía práctica para la cubicación de maderas',
+        'Posicionamiento de la Gobernanza Forestal en Colombia. (s.f.). Guía práctica para la cubicación de maderas.',
       link:
         'https://docplayer.es/18505591-Guia-practica-para-la-cubicacion-de-maderas.html',
     },
@@ -377,14 +377,33 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: [
+          'Carmen Alicia Martínez Torres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'John Jairo Arciniegas González',
+          'Lady Adriana Ariza Luque',
+          'Laura Ximena Hurtado Villalba',
+          'Wilson Andrés Arenales Caceres',
+          'Yicelly Estefania Mesa Silva',
+        ],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
         nombre: 'Deivy Giovanni Fonseca Bermúdez',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -396,16 +415,6 @@ export default {
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

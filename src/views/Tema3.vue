@@ -28,21 +28,22 @@
           .row
             .col-12.mb-4
               h3 Secado natural
-              p El cual se realiza al aire libre y depende de las condiciones ambientales del lugar (viento, humedad, calor) las cuales influirán en la calidad del secado.
+              p.pt-3 El cual se realiza al aire libre y depende de las condiciones ambientales del lugar (viento, humedad, calor) las cuales influirán en la calidad del secado.
 
           .row
             .col-12.mb-4
               h3 Secado industrial
-              p en este proceso la madera es secada mediante cámaras u hornos en donde se controla la temperatura y el tiempo para obtener un grado de humedad requerido en la madera según la especie y su posterior transformación, al ser un proceso controlado se pueden obtener las siguientes ventajas:
-              p - Un secado más rápido.
-              p - Una humedad uniforme y requerida
-              p - Disminución de defectos durante el proceso
-              p - Control del proceso
+              p.pt-3 En este proceso la madera es secada mediante cámaras u hornos en donde se controla la temperatura y el tiempo para obtener un grado de humedad requerido en la madera según la especie y su posterior transformación, al ser un proceso controlado se pueden obtener las siguientes ventajas:
+              p.mb-0 - Un secado más rápido.
+              p.mb-0 - Una humedad uniforme y requerida.
+              p.mb-0 - Disminución de defectos durante el proceso.
+              p.mb-0 - Control del proceso.
 
         p Al iniciar este proceso que permitirá alcanzar en la madera un grado de preservación es necesario conocer y tener en cuenta dos tipos de factores, pues ellos influyen en la calidad del producto.
 
-    .row.p-5.bg-factores
-      h3 Factores internos que determinan un secado:
+    .row.p-3.bg-factores
+      .col-12.my-4
+        h3 Factores internos que determinan un secado:
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
@@ -79,7 +80,8 @@
               h4 Contenido de humedad final
               p Este contenido está determinado por el uso que se le dará a la madera.
 
-      h3 Factores externos que determinan un secado:
+      .col-12.my-4
+        h3 Factores externos que determinan un secado:
 
       .col-lg-6
         .tarjeta-avatar-b.mb-5
@@ -115,17 +117,17 @@
         p Cuando se habla de inmunizar la madera, se hace referencia al proceso mediante el cual la madera es impregnada de sustancias químicas mediante la utilización de diferentes métodos (inmersión, vacío presión) para lograr su preservación, durabilidad en el tiempo y resistencia a ataques por hongos, insectos y perforadores marinos. Por ello, es importante tener en cuenta lo siguiente:
 
     .row.justify-content-center
-      .col-lg-5.m-1.bg-tarjeta-infografia.tarjeta-inmunizado.p-0.m-4
+      .col-lg-5.m-1.bg-tarjeta-infografia-3.tarjeta-inmunizado.p-0.m-4
         img(src='@/assets/curso/tema3/flip2.png', alt='Texto que describa la imagen' )
         p.text-center.p-4 Estas sustancias que son aplicadas a la madera deben cumplir con ciertos requisitos como: ser tóxicas para los agentes patógenos, no ser tóxicas para las personas y animales.
 
       .col-lg-5.m-1.bg-color-tarjeta-inmunizado.tarjeta-inmunizado.p-0.m-4
         img(src='@/assets/curso/tema3/flip1.png', alt='Texto que describa la imagen' )
-        p.text-center.p-4 Sustancias que no sean corrosivas ni combustibles y sean relativamente económicas, la selección del preservante debe ser realizada pensando en el tipo de servicio que prestara la madera, y su éxito dependerá del grado de penetración que se logre.
+        p.text-center.p-4 Sustancias que no sean corrosivas ni combustibles y sean relativamente económicas, la selección del preservante debe ser realizada pensando en el tipo de servicio que prestará la madera, y su éxito dependerá del grado de penetración que se logre.
 
     .row.my-5
       .col.col-12.col-md-7
-        p Algunos de los preservantes más conocidos son:
+        p.my-3.fw-bold Algunos de los preservantes más conocidos son:
         ul.lista-ul--color
           li
             i.fas.fa-check

@@ -10,7 +10,7 @@
 
     .row.mb-5
       .col.col-12.col-md-7
-        p.mb-3 En el mundo se encuentra una gran cantidad de maderas, las cuales varían de un lugar a otro dependiendo de su lugar de origen, donde:
+        p.mb-3.pt-2 En el mundo se encuentra una gran cantidad de maderas, las cuales varían de un lugar a otro dependiendo de su lugar de origen, donde:
 
         ul.lista-ul
           li
@@ -52,17 +52,17 @@
             figure
               img(src='@/assets/curso/tema2/img02.png', alt='Propiedades Mecánicas')
         
-          .tarjeta.bg-tarjeta-infografia.p-3(x='77%' y='5%' numero='1')
-            p Cuando la madera es sometida a una fuerza que tiende a aplastar las fibras en sentido axial o perpendicular a ellas la resistencia será mayor en el primer caso.
+          .tarjeta.bg-tarjeta-infografia.p-4(x='77%' y='5%' numero='1')
+            p.mb-0 Cuando la madera es sometida a una fuerza que tiende a aplastar las fibras en sentido axial o perpendicular a ellas la resistencia será mayor en el primer caso.
         
-          .tarjeta.bg-tarjeta-infografia.p-3(x='15%' y='50%' numero='2')
-            p Trabajo impuesto a una pieza que se coloca sobre dos apoyos y que está sometida al peso en uno o más puntos de apoyo en su longitud.
+          .tarjeta.bg-tarjeta-infografia.p-4(x='15%' y='50%' numero='2')
+            p.mb-0 Trabajo impuesto a una pieza que se coloca sobre dos apoyos y que está sometida al peso en uno o más puntos de apoyo en su longitud.
         
-          .tarjeta.bg-tarjeta-infografia.p-3(x='59%' y='41%' numero='3')
-            p Acción de fuerzas paralelas que tienden a cortar la sección transversal de la madera.
+          .tarjeta.bg-tarjeta-infografia.p-4(x='59%' y='41%' numero='3')
+            p.mb-0 Acción de fuerzas paralelas que tienden a cortar la sección transversal de la madera.
 
-          .tarjeta.bg-tarjeta-infografia.p-3(x='67.5%' y='72%' numero='4')
-            p Resistencia que opone una pieza fija en uno de sus extremos a la formación producida por un giro de su eje que obra con un brazo de palanca en su extremo libre.
+          .tarjeta.bg-tarjeta-infografia.p-4(x='67.5%' y='72%' numero='4')
+            p.mb-0 Resistencia que opone una pieza fija en uno de sus extremos a la formación producida por un giro de su eje que obra con un brazo de palanca en su extremo libre.
 
         //- Propiedad Organoléptica
         img.img250.my-4(src='@/assets/curso/tema2/imgOrganolepticas.svg', alt='Propiedad Organoléptica', class='img-fluid')
@@ -74,26 +74,26 @@
             figure
               img(src='@/assets/curso/tema2/img03.png', alt='Propiedades Organolépticas')
         
-          .tarjeta.bg-tarjeta-infografia.p-3(x='17%' y='2%' numero='1')
-            p Variable de blancos a negros dependiente de la especie, por lo general las maderas duras presentan colores más oscuros.
+          .tarjeta.bg-tarjeta-infografia-o.p-4(x='17%' y='2%' numero='1')
+            p.mb-0 Variable de blancos a negros dependiente de la especie, por lo general las maderas duras presentan colores más oscuros.
         
-          .tarjeta.bg-tarjeta-infografia.p-3(x='-2%' y='34%' numero='2')
-            p Es de importancia dependiendo de la utilización de la madera.
+          .tarjeta.bg-tarjeta-infografia-o.p-4(x='-2%' y='34%' numero='2')
+            p.mb-0 Es de importancia dependiendo de la utilización de la madera.
         
-          .tarjeta.bg-tarjeta-infografia.p-3(x='-2%' y='66%' numero='3')
-            p Tamaño y espaciamiento de las células en la madera.
+          .tarjeta.bg-tarjeta-infografia-o.p-4(x='-2%' y='66%' numero='3')
+            p.mb-0 Tamaño y espaciamiento de las células en la madera.
 
-          .tarjeta.bg-tarjeta-infografia.p-3(x='35%' y='92.5%' numero='4')
-            p Figura que se aprecia en las fibras, es una característica muy apetecida comercialmente.
+          .tarjeta.bg-tarjeta-infografia-o.p-4(x='35%' y='92.5%' numero='4')
+            p.mb-0 Figura que se aprecia en las fibras, es una característica muy apetecida comercialmente.
 
-          .tarjeta.bg-tarjeta-infografia.p-3(x='100%' y='66%' numero='5')
-            p Capacidad que posee la madera de reflejar la luz.
+          .tarjeta.bg-tarjeta-infografia-o.p-4(x='100%' y='66%' numero='5')
+            p.mb-0 Capacidad que posee la madera de reflejar la luz.
 
-          .tarjeta.bg-tarjeta-infografia.p-3(x='100%' y='34%' numero='6')
-            p Es la disposición y dirección de los elementos constituyentes del leño en relación al eje del árbol.
+          .tarjeta.bg-tarjeta-infografia-o.p-4(x='100%' y='34%' numero='6')
+            p.mb-0 Es la disposición y dirección de los elementos constituyentes del leño en relación al eje del árbol.
 
-          .tarjeta.bg-tarjeta-infografia.p-3(x='81%' y='2%' numero='7')
-            p Dependiendo de la especie se presentan olores a sustancias volátiles
+          .tarjeta.bg-tarjeta-infografia-o.p-4(x='81%' y='2%' numero='7')
+            p.mb-0 Dependiendo de la especie se presentan olores a sustancias volátiles.
 
 </template>
 
