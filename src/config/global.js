@@ -357,6 +357,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Erika Barrera Montañez',
+        cargo: 'Experta Temática',
+        centro:
+          'Centro para el Desarrollo Rural y Minero CEDRUM Regional Norte de Santander',
+      },
+      {
+        nombre: 'Beatriz Eugenia Agudelo Vásquez',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Gestión Industrial Regional - Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Gestión Industrial Regional - Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -382,15 +404,43 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: [
-          'Carmen Alicia Martínez Torres',
-          'Gilberto Junior Rodriguez Rodriguez',
-          'John Jairo Arciniegas González',
-          'Lady Adriana Ariza Luque',
-          'Laura Ximena Hurtado Villalba',
-          'Wilson Andrés Arenales Caceres',
-          'Yicelly Estefania Mesa Silva',
-        ],
+        nombre: ['Carmen Alicia Martínez Torres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Gilberto Junior Rodriguez Rodriguez'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['John Jairo Arciniegas González'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Lady Adriana Ariza Luque'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Laura Ximena Hurtado Villalba'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Wilson Andrés Arenales Caceres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Yicelly Estefania Mesa Silva'],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

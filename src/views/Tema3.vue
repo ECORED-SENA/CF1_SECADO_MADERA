@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
@@ -41,76 +41,77 @@
 
         p Al iniciar este proceso que permitirá alcanzar en la madera un grado de preservación es necesario conocer y tener en cuenta dos tipos de factores, pues ellos influyen en la calidad del producto.
 
-    .row.p-3.bg-factores
-      .col-12.my-4
-        h3 Factores internos que determinan un secado:
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/tarjeta01.png' alt='Especie')
-          .tarjeta.bg-color-tarjeta
-            .p-4
-              h4 Especie
-              p Las maderas son de diferentes especies por tanto es imprescindible su identificación y separación antes de realizar el proceso, pues cada una de ellas obedece a un secado diferente.
+    .bg-factores
+      .row.p-3
+        .col-12.my-4
+          h3 Factores internos que determinan un secado:
+        .col-lg-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/tarjeta01.png' alt='Especie')
+            .tarjeta.bg-color-tarjeta
+              .p-4
+                h4 Especie
+                p Las maderas son de diferentes especies por tanto es imprescindible su identificación y separación antes de realizar el proceso, pues cada una de ellas obedece a un secado diferente.
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/tarjeta02.png' alt='Espesor')
-          .tarjeta.bg-color-tarjeta
-            .p-4
-              h4 Espesor
-              p El espesor de la madera debe ser el mismo dentro de las pilas a secar o caso contrario puede haber una diferencia en espesor no mayor a ½" en las tablas a secar.
+        .col-lg-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/tarjeta02.png' alt='Espesor')
+            .tarjeta.bg-color-tarjeta
+              .p-4
+                h4 Espesor
+                p El espesor de la madera debe ser el mismo dentro de las pilas a secar o caso contrario puede haber una diferencia en espesor no mayor a ½" en las tablas a secar.
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/tarjeta03.png' alt='Contenido de humedad inicial')
-          .tarjeta.bg-color-tarjeta
-            .p-4
-              h4 Contenido de humedad inicial
-              p Se debe prestar especial atención en este aspecto ya que las tablas a secar deben tener en lo posible el mismo contenido de humedad para garantizar un proceso de secado exitoso.
+        .col-lg-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/tarjeta03.png' alt='Contenido de humedad inicial')
+            .tarjeta.bg-color-tarjeta
+              .p-4
+                h4 Contenido de humedad inicial
+                p Se debe prestar especial atención en este aspecto ya que las tablas a secar deben tener en lo posible el mismo contenido de humedad para garantizar un proceso de secado exitoso.
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/tarjeta04.png' alt='Contenido de humedad final')
-          .tarjeta.bg-color-tarjeta
-            .p-4
-              h4 Contenido de humedad final
-              p Este contenido está determinado por el uso que se le dará a la madera.
+        .col-lg-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/tarjeta04.png' alt='Contenido de humedad final')
+            .tarjeta.bg-color-tarjeta
+              .p-4
+                h4 Contenido de humedad final
+                p Este contenido está determinado por el uso que se le dará a la madera.
 
-      .col-12.my-4
-        h3 Factores externos que determinan un secado:
+        .col-12.my-4
+          h3 Factores externos que determinan un secado:
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/tarjeta05.png' alt='Temperatura')
-          .tarjeta.bg-color-tarjeta
-            .p-4
-              h4 Temperatura
-              p Esta variable está ligada al grado de evaporación del agua en la madera, a mayor temperatura mayor movimiento del agua en la pieza a secar.
+        .col-lg-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/tarjeta05.png' alt='Temperatura')
+            .tarjeta.bg-color-tarjeta
+              .p-4
+                h4 Temperatura
+                p Esta variable está ligada al grado de evaporación del agua en la madera, a mayor temperatura mayor movimiento del agua en la pieza a secar.
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/tarjeta06.png' alt='Humedad relativa')
-          .tarjeta.bg-color-tarjeta
-            .p-4
-              h4 Humedad relativa
-              p Es la cantidad de vapor de agua presente en el aire, determinando la velocidad de secado de la madera.
+        .col-lg-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/tarjeta06.png' alt='Humedad relativa')
+            .tarjeta.bg-color-tarjeta
+              .p-4
+                h4 Humedad relativa
+                p Es la cantidad de vapor de agua presente en el aire, determinando la velocidad de secado de la madera.
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema3/tarjeta07.png' alt='Circulación de aire')
-          .tarjeta.bg-color-tarjeta
-            .p-4
-              h4 Circulación de aire
-              p La velocidad con la que se mueve el aire permite generar energía para calentar el agua contenida en la madera facilitando así su evaporación.
+        .col-lg-6
+          .tarjeta-avatar-b.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/tarjeta07.png' alt='Circulación de aire')
+            .tarjeta.bg-color-tarjeta
+              .p-4
+                h4 Circulación de aire
+                p La velocidad con la que se mueve el aire permite generar energía para calentar el agua contenida en la madera facilitando así su evaporación.
 
-    .row
+    .row.mt-4
       .col.py-4
         #t_3_2.titulo-segundo.color-acento-contenido
           h2 3.2 Inmunizado

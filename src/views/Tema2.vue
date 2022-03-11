@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -29,19 +29,23 @@
         picture
           img(src='@/assets/curso/tema2/img01.png', alt='Propiedades de la madera', class='img-fluid')
 
-    .row 
-      .col-12
-        p.text-center
-          strong A continuación se presentan algunas de estas propiedades y sus principales características:
-      .col-12
-        //- Propiedad Física
-        img.img250.my-4(src='@/assets/curso/tema2/imgFisicas.svg', alt='Propiedad Física', class='img-fluid')
+    .bg-linea-tiempo
+      .row 
+        .col-12
+          p.text-center
+            strong A continuación se presentan algunas de estas propiedades y sus principales características:
+        .col-12
+          //- Propiedad Física
+          img.img250.my-4(src='@/assets/curso/tema2/imgFisicas.svg', alt='Propiedad Física', class='img-fluid')
 
-        p Las propiedades físicas de la madera son aquellas que determinan su comportamiento frente a los distintos factores del medio natural como: la iluminación, el agua, el calor, las vibraciones acústicas entre otras, sin producir ninguna modificación mecánica o química. Se conocerán a continuación:
+          p Las propiedades físicas de la madera son aquellas que determinan su comportamiento frente a los distintos factores del medio natural como: la iluminación, el agua, el calor, las vibraciones acústicas entre otras, sin producir ninguna modificación mecánica o química. Se conocerán a continuación:
 
-        //- LineaTiempoA
-        LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")
-        
+          //- LineaTiempoA
+          LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")
+          
+    .row
+      .col-12
+        br
         //- Propiedad Mecánica
         img.img250.my-4(src='@/assets/curso/tema2/imgMecanica.svg', alt='Propiedad Mecánica', class='img-fluid')
 
@@ -63,7 +67,8 @@
 
           .tarjeta.bg-tarjeta-infografia.p-4(x='67.5%' y='72%' numero='4')
             p.mb-0 Resistencia que opone una pieza fija en uno de sus extremos a la formación producida por un giro de su eje que obra con un brazo de palanca en su extremo libre.
-
+    .row
+      .col-12
         //- Propiedad Organoléptica
         img.img250.my-4(src='@/assets/curso/tema2/imgOrganolepticas.svg', alt='Propiedad Organoléptica', class='img-fluid')
 

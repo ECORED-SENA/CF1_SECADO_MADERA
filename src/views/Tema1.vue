@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -18,7 +18,7 @@
           br
           | Es importante notar que la estructura de la madera no es la misma en todas las especies, pues su disposición y tejidos varían anatómicamente de una especie a otra, resultando en características físico mecánicas diferentes y por tanto en distintos métodos y procesos para su transformación (Giménez, 2014).
 
-    .row.justify-content-center.gy-4
+    .row.justify-content-center.gy-4.fadeIn
       .col-12.my-4
         p.text-center.mt-5
           strong A continuación, se conocerán las distintas células que conforman la madera.
@@ -32,7 +32,7 @@
           .tarjeta.bgTarjetaInfografia.p-4(x='88.5%' y='13%' numero='1')
             p.text-center.mb-0 
               strong Fibras: 
-              | estas células constituyen el elemento principal de la madera, ya que de ellas depende caracteristicas primordiales como: la densidad, resistencia mecánica, contracción e hinchamiento, capacidad de aislamiento acústico y eléctrico, y flexibilidad. Las fibras se orientan en sentido paralelo al eje longitudinal del tronco.
+              | estas células constituyen el elemento principal de la madera, ya que de ellas depende características primordiales como: la densidad, resistencia mecánica, contracción e hinchamiento, capacidad de aislamiento acústico y eléctrico, y flexibilidad. Las fibras se orientan en sentido paralelo al eje longitudinal del tronco.
 
           .tarjeta.bgTarjetaInfografia.p-4(x='88.4%' y='52.7%' numero='2')
             p.text-center.mb-0
@@ -51,7 +51,7 @@
       .col-12  
         strong Partes del tronco
         p.my-4 El tronco en el árbol es la parte donde se encuentra concentrada la madera, esta madera compuesta de células longitudinales y transversales se sitúa debajo de la corteza de los tallos leñosos y cumple con la función de constituir el esqueleto del árbol. Se verá cómo se estructuran las partes del tronco desde la más externa denominada corteza hasta llegar a la médula que es el centro del árbol:
-        .row
+        .row.fadeIn
           .col-12.position-relative
             TabsA.color-acento-contenido
               //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -92,10 +92,10 @@
 
           .col-12
             .row.mb-5
-              .col.col-12.col-md-6
+              .col.col-12.col-md-6.my-4
                 picture
-                  img(src='@/assets/curso/tema1/img04.jpg', alt='Planos de corte', class='img-fluid')
-              .col.col-12.col-md-6
+                  img(src='@/assets/curso/tema1/img04.svg', alt='Planos de corte', class='img-fluid')
+              .col.col-12.col-md-6.mt-4
                 ol.lista-ol--cuadro.lista-ol--separador
                   li
                     .lista-ol--cuadro__vineta
@@ -103,28 +103,26 @@
                     div
                       p.fw-bold Sección transversal 
                       p Cara perpendicular al eje del tronco. Es la superficie observable en el extremo de una troza.
-                  li.sin-estilo
-                    .lista-ol--cuadro__vineta
-                    div
-                      p.fw-bold Sección longitudinal
-                      p Superficie paralela al eje del tronco, que a su vez puede ser:
-
-
-                ol.lista-ol--cuadro.lista-ol--separador
                   li
                     .lista-ol--cuadro__vineta
                       span 2
                     div
-                      p.fw-bold Radial
-                      p Resultante de un corte longitudinal paralelo a los radios, desde la corteza hasta la médula.
+                      p.fw-bold Sección longitudinal
+                      p Superficie paralela al eje del tronco, que a su vez puede ser:
 
-                  li
-                    .lista-ol--cuadro__vineta
-                      span 3
-                    div
-                      p.fw-bold Tangencial
-                      p Si el plano de corte sigue una dirección perpendicular a los radios o tangente a los anillos de crecimiento.
-                  li
+                .row.ms-4
+                  .col-12
+                    ul.lista-ul--color
+                      li
+                        i.fas.fa-angle-right
+                        div
+                          p.fw-bold Radial 
+                          p Resultante de un corte longitudinal paralelo a los radios, desde la corteza hasta la médula.
+                      li
+                        i.fas.fa-angle-right
+                        div
+                          p.fw-bold Tangencial
+                          p Si el plano de corte sigue una dirección perpendicular a los radios o tangente a los anillos de crecimiento.
 
 
 </template>

@@ -1,7 +1,19 @@
 // General
-.banner-interno__fondo
-  background-image: url("../assets/curso/banner/fondo-banner-interno.jpg") !important
-  background-repeat: no-repeat  
+.animated
+  -webkit-animation-duration: 1s
+  animation-duration: 1s
+  -webkit-animation-fill-mode: both
+  animation-fill-mode: both
+
+@keyframes fadeIn
+  from
+    opacity: 0
+
+  to
+    opacity: 1
+
+.fadeIn
+  animation-name: fadeIn
 
 .fuente-color-acento-contenido
   color: $color-acento-contenido
@@ -60,15 +72,21 @@
   border-radius: 50%;
   padding: 17px
 
-.sin-estilo .lista-ol--cuadro__vineta
-  background-color: #FFF;
-  display: inline-block;
-
 // Tema 2
-.linea-tiempo-a
-  background-image: url("../assets/curso/tema2/bg-linea.png")
-  background-repeat: no-repeat
-  background-position: 0 100% 
+.bg-linea-tiempo
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: url("../assets/curso/tema2/bg-linea.png")
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    max-height: 490px
+    margin: 0 -3rem
+
 
 .linea-tiempo-a__icon__container span 
   color: white
@@ -93,9 +111,18 @@
   height: 200px
 
 .bg-factores
-  background-image: url('../assets/curso/tema3/bg-factores.png')
-  background-repeat: no-repeat
-  background-position: 0 100%
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: url("../assets/curso/tema3/bg-factores.png")
+    position: absolute 
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    max-height: 723px
+    margin: 0 -3rem
 
 .bg-tarjeta-infografia-3
   background-color: #A5C37A
@@ -115,9 +142,19 @@
 
 // Tema 4 
 .bg-tablas-conversion
-  background-image: url("../assets/curso/tema2/bg-linea.png")
-  background-repeat: no-repeat
-  background-position: 0 100% 
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: url("../assets/curso/tema2/bg-linea.png")
+    position: absolute 
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    max-height: 480px
+    margin: 0 -3rem  
+
 
 .bg-color-tarjeta-medidas  
   background-color: #ECEDEB
