@@ -82,7 +82,7 @@
                 p Este contenido está determinado por el uso que se le dará a la madera.
 
         .col-12.my-4
-          h3 Factores externos que determinan un secado:
+          h3 Factores externos que determinan un secado
 
         .col-lg-6
           .tarjeta-avatar-b.mb-5

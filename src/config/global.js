@@ -359,18 +359,18 @@ export default {
       },
       {
         nombre: 'Erika Barrera Montañez',
-        cargo: 'Experta Temática',
+        cargo: 'Experta temática',
         centro:
           'Centro para el Desarrollo Rural y Minero CEDRUM Regional Norte de Santander',
       },
       {
         nombre: 'Beatriz Eugenia Agudelo Vásquez',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial Regional - Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
+        cargo: 'Revisor metodológico y pedagógico',
         centro: 'Centro de Gestión Industrial Regional - Distrito Capital',
       },
       {

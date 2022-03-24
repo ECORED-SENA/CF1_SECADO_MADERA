@@ -110,7 +110,7 @@
               p Es una forma común de encontrar la madera en bloque en el mercado y equivaldría a una pieza con las siguientes dimensiones:  1 pulgada de ancho por una pulgada de espesor por 3 metros de largo.
               p Fórmula:
                 br 
-                | Volumen (“PC”): Ancho en Pulgadas x Alto en Pulgada s x (Largo en mt / 3 mt) para pasar este volumen de “Pulgadas Comerciales” a metros cúbicos, se multiplicaría por 0,001935 m
+                | Volumen (“PC”): ancho en pulgadas x alto en pulgada s x (largo en mt / 3 mt) para pasar este volumen de “pulgadas comerciales” a metros cúbicos, se multiplicaría por 0,001935 m
                 sup 3
                 |.
 
@@ -122,7 +122,7 @@
               p Unidad comúnmente encontrada y equivale a la madera aserrada con dimensiones 1 pulgada de ancho por un pie de alto por un pie de largo.
               p Fórmula:
                 br 
-                | Volumen (PT): Ancho en Pulgadas (in) x 1 pie(ft) de alto x 1 pie(ft) de largo.
+                | Volumen (PT): ancho en pulgadas (in) x 1 pie(ft) de alto x 1 pie(ft) de largo.
 
           .row(titulo="Pulgada vara")
             .col-md-3
@@ -132,10 +132,10 @@
               p Es la forma de cubicar madera principalmente en Europa y corresponde a las siguientes dimensiones en la pieza: 1 pulgada de ancho por una pulgada de espesor por 1 vara de largo.
               p Fórmula:
                 br 
-                | Volumen (PV): Ancho en Pulgadas x Alto en Pulgadas x Longitud en Varas  
+                | Volumen (PV): ancho en pulgadas x alto en pulgadas x longitud en varas  
                 | Una pulgada vara equivaldría a 0,0005387 m
                 sup 3 
-                | para pasar este volumen de Pulgadas Vara a metros cúbicos, se multiplicaría por 1856,32 m
+                | para pasar este volumen de pulgadas vara a metros cúbicos, se multiplicaría por 1856,32 m
                 sup 3
                 |.
 

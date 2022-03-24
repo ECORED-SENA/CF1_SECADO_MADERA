@@ -7,10 +7,10 @@
       .titulo-principal__numero
         span 5
       h1 Apilado
-    .row.bg-tablas-conversion
+    .row.bg-tablas-conversion.d-flex.justify-content-center
       .col-12
         p El apilado es la forma como se distribuye la madera aserrada de manera tal que facilite al operador su manipulación de manera segura al igual que los procesos de inmunizado, secado y embalaje. Para garantizar un exitoso proceso de secado es importante seleccionar y separar las piezas en pilas; para ello, es necesario tener en cuenta los siguientes criterios:
-
+      .col-10
         //- Pasos
         PasosA.color-acento-contenido.mb-5(tipo="n")
           .row
