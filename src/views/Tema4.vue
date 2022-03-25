@@ -132,7 +132,7 @@
               p Es la forma de cubicar madera principalmente en Europa y corresponde a las siguientes dimensiones en la pieza: 1 pulgada de ancho por una pulgada de espesor por 1 vara de largo.
               p Fórmula:
                 br 
-                | Volumen (PV): ancho en pulgadas x alto en pulgadas x longitud en varas  
+                | Volumen (PV): ancho en pulgadas x alto en pulgadas x longitud en varas.  
                 | Una pulgada vara equivaldría a 0,0005387 m
                 sup 3 
                 | para pasar este volumen de pulgadas vara a metros cúbicos, se multiplicaría por 1856,32 m

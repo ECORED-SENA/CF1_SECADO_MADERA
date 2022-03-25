@@ -44,7 +44,7 @@
     .bg-factores
       .row.p-3
         .col-12.my-4
-          h3 Factores internos que determinan un secado:
+          h3 Factores internos que determinan un secado
         .col-lg-6
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
