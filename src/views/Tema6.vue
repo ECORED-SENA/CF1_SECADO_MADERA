@@ -62,7 +62,7 @@
         #t_6_2.titulo-segundo.color-acento-contenido
           h2  6.2 Riesgos y peligros asociados a la labor 
 
-        p Para finalizar el recorrido por este material de formación es momento de tener muy presente los riesgos y peligros al momento de apilar la madera; es donde las operaciones forestales exigen manipulación de herramientas, procedimientos peligrosos y sobreesfuerzos en los trabajadores, estas actividades pueden llegar a causar desórdenes músculo esqueléticos o accidentes que comprometan la vida del operario en cuestión. En el proceso de apilado de madera  se pueden identificar algunos que revisten importancia y que se deben tener en cuenta durante su ejecución:
+        p Para finalizar el recorrido por este componente formativo es momento de tener muy presente los riesgos y peligros al momento de apilar la madera; es donde las operaciones forestales exigen manipulación de herramientas, procedimientos peligrosos y sobreesfuerzos en los trabajadores, estas actividades pueden llegar a causar desórdenes músculo esqueléticos o accidentes que comprometan la vida del operario en cuestión. En el proceso de apilado de madera  se pueden identificar algunos que revisten importancia y que se deben tener en cuenta durante su ejecución:
 
         TabsB.color-acento-contenido.my-5
           .py-4.py-md-5(titulo="Apilado de madera" :icono="require('@/assets/curso/tema6/t01.svg')")

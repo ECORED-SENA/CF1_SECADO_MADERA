@@ -100,17 +100,17 @@
               figure
                 img(src='@/assets/curso/tema4/a01.jpg', alt='Madera procesada')
             .col-md-9.mb-4.mb-md-0
-              p Esta madera es la que ha sufrido algún tipo de transformación y podemos encontrarla en el mercado como: bloque, madera en tablas o regla según su almacenamiento. Igualmente, para la cubicación de maderas procesada es común hablar de pie tablar, pulgada comercial o pulgada vara, pero si queremos unificar criterios es en metro cúbico que debemos expresar el volumen (Posicionamiento de la gobernanza forestal en Colombia).
+              p Esta madera es la que ha sufrido algún tipo de transformación y podemos encontrarla en el mercado como: bloque, madera en tablas o regla según su almacenamiento. Igualmente, para la cubicación de madera procesada es común hablar de pie tablar, pulgada comercial o pulgada vara, pero si queremos unificar criterios es en metro cúbico que debemos expresar el volumen (Posicionamiento de la Gobernanza Forestal en Colombia).
 
           .row(titulo="Pulgada comercial")
             .col-md-3
               figure
                 img(src='@/assets/curso/tema4/a02.jpg', alt='Pulgada comercial')
             .col-md-9.mb-4.mb-md-0
-              p Es una forma común de encontrar la madera en bloque en el mercado y equivaldría a una pieza con las siguientes dimensiones:  1 pulgada de ancho por una pulgada de espesor por 3 metros de largo.
+              p Es una forma común de encontrar la madera en bloque en el mercado y equivaldría a una pieza con las siguientes dimensiones:  1 pulgada de ancho por 1 pulgada de espesor por 3 metros de largo.
               p Fórmula:
                 br 
-                | Volumen (“PC”): ancho en pulgadas x alto en pulgada s x (largo en mt / 3 mt) para pasar este volumen de “pulgadas comerciales” a metros cúbicos, se multiplicaría por 0,001935 m
+                | Volumen (“PC”): ancho en pulgadas x alto en pulgadas x (largo en mt / 3 mt) para pasar este volumen de “pulgadas comerciales” a metros cúbicos, se multiplicaría por 0,001935 m
                 sup 3
                 |.
 
@@ -119,7 +119,7 @@
               figure
                 img(src='@/assets/curso/tema4/a03.jpg', alt='Pie tablar')
             .col-md-9.mb-4.mb-md-0
-              p Unidad comúnmente encontrada y equivale a la madera aserrada con dimensiones 1 pulgada de ancho por un pie de alto por un pie de largo.
+              p Unidad comúnmente encontrada y equivale a la madera aserrada con dimensiones 1 pulgada de ancho por 1 pie de alto por 1 pie de largo.
               p Fórmula:
                 br 
                 | Volumen (PT): ancho en pulgadas (in) x 1 pie(ft) de alto x 1 pie(ft) de largo.
@@ -129,7 +129,7 @@
               figure
                 img(src='@/assets/curso/tema4/a04.jpg', alt='Pulgada vara')
             .col-md-9.mb-4.mb-md-0
-              p Es la forma de cubicar madera principalmente en Europa y corresponde a las siguientes dimensiones en la pieza: 1 pulgada de ancho por una pulgada de espesor por 1 vara de largo.
+              p Es la forma de cubicar madera principalmente en Europa y corresponde a las siguientes dimensiones en la pieza: 1 pulgada de ancho por 1 pulgada de espesor por 1 vara de largo.
               p Fórmula:
                 br 
                 | Volumen (PV): ancho en pulgadas x alto en pulgadas x longitud en varas.  

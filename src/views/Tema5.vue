@@ -9,7 +9,7 @@
       h1 Apilado
     .row.bg-tablas-conversion.d-flex.justify-content-center
       .col-12
-        p El apilado es la forma como se distribuye la madera aserrada de manera tal que facilite al operador su manipulación de manera segura al igual que los procesos de inmunizado, secado y embalaje. Para garantizar un exitoso proceso de secado es importante seleccionar y separar las piezas en pilas; para ello, es necesario tener en cuenta los siguientes criterios:
+        p El apilado es la forma como se distribuye la madera aserrada de forma tal que facilite al operador su manipulación de manera segura al igual que los procesos de inmunizado, secado y embalaje. Para garantizar un exitoso proceso de secado es importante seleccionar y separar las piezas en pilas; para ello, es necesario tener en cuenta los siguientes criterios:
       .col-10
         //- Pasos
         PasosA.color-acento-contenido.mb-5(tipo="n")
@@ -68,7 +68,7 @@
               p.text-small Deben ser elaborados de maderas secas o en su defecto materiales como aluminio o contrachapados.
           .row(numero="3" titulo="Especificación 3")
             .col-12.mb-4.mb-md-0
-              p.text-small Su espesor debe ser uniforme el espesor de los separadores tiene que ver con el espesor de la madera a secar usualmente se utilizan separadores entre 16 mm (5/8") y 25 mm (1"), y el ancho de los separadores será un 50% mayor que el espesor elegido.
+              p.text-small Su espesor debe ser uniforme, el espesor de los separadores tiene que ver con el espesor de la madera a secar, usualmente se utilizan separadores entre 16 mm (5/8") y 25 mm (1"), y el ancho de los separadores será un 50% mayor que el espesor elegido.
 
       .col.col-12.col-md-7
         table.tabla-apilado

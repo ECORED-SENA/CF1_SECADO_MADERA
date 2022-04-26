@@ -10,7 +10,7 @@
             img(src="@/assets/curso/icono.svg", alt="Falso-Verdadero")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 ¿Qué tanto aprendiste de las técnicas y procedimiento de apilado de madera?
+          h2 ¿Qué tanto aprendió de las técnicas y procedimiento de apilado de madera?
         p.mb-4 Recordar métodos y técnicas asociadas al correcto proceso de apilado y secado de la madera.
         .tarjeta.tarjeta--azul.p-3(style="background-color:#ffe2cf;")
           .row.justify-content-around.align-items-center            

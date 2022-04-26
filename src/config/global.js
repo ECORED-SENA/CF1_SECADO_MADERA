@@ -141,7 +141,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -206,7 +206,7 @@ export default {
     },
     {
       referencia:
-        'Chavesta. (2006). Manual para la identificación de maderas forestales.',
+        'Chavesta. (2006). Manual para la identificación de especies maderables.',
       link:
         'https://dl-manual.com/doc/manual-para-la-identificacion-de-especies-maderables5doc-6vj3dkx301oe',
     },
@@ -256,7 +256,7 @@ export default {
     },
     {
       referencia:
-        'Posicionamiento de la Gobernanza Forestal en Colombia. (s.f.). Guía práctica para la cubicación de maderas.',
+        'Posicionamiento de la Gobernanza Forestal en Colombia. (s.f.). Guía de cubicación de madera.',
       link:
         'https://docplayer.es/18505591-Guia-practica-para-la-cubicacion-de-maderas.html',
     },

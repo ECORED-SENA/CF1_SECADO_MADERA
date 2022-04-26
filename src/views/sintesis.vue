@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 
-      h1 Sintesis
+      h1 Síntesis
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
