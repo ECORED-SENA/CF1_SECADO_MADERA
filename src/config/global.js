@@ -330,7 +330,7 @@ export default {
     },
     {
       texto:
-        'Rodríguez, E., Moreno, R. y Villota, N. (2013). Cubicación y conversión de unidades',
+        'Rodríguez, E., Moreno, R. y Villota, N. (2013). Guía de cubicación de madera.',
       tipo: 'Documento',
       link: 'http://www.rivasdaniel.com/pdf/GUIA_DE_CUBICACION_MADERA.pdf',
     },
